@@ -8,4 +8,4 @@ nodeGroups:
     instanceType: m5.large
     desiredCapacity: 2
     privateNetworking: false
-    allowSSH: true[environment/k8s-on-eks-provision] [] [default][eksuser@k8s-on-eks.us-east-2.eksctl.io]
+    allowSSH: true [environment/k8s-on-eks-provision] [] [default] [eksuser@k8s-on-eks.us-east-2.eksctl.io]
