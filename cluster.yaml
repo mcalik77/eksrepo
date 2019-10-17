@@ -1,0 +1,11 @@
+apiVersion: eksctl.io/v1alpha4
+kind: ClusterConfig
+metadata:
+  name: k8s-on-eks-pro
+  region: us-east-2
+nodeGroups:
+  - name: ng-1
+    instanceType: m5.large
+    desiredCapacity: 2
+    privateNetworking: false
+    allowSSH: true[environment/k8s-on-eks-provision] [] [default][eksuser@k8s-on-eks.us-east-2.eksctl.io]
