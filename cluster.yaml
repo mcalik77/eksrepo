@@ -5,7 +5,8 @@ metadata:
   region: us-east-1
 nodeGroups:
   - name: ng-1
-    instanceType: m5.large
+    instanceType: t2.micro
     desiredCapacity: 2
     privateNetworking: false
+    allowSSH = true
     
